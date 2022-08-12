@@ -22,7 +22,7 @@
   --accent-text-color: #2196f3;
   --adress-text-color: rgba(255, 255, 255, 0.6);
   --btn-background-color: #f5f4fa;
-  --footer-color: #2f303a;
+  --footer-hero-color: #2f303a;
 }
 /* main page */
 body {
@@ -76,13 +76,16 @@ body {
 }
 /* hero */
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.hero {
+  background-color: var(--footer-hero-color);
 }
 .hero-btn {
   color: var(--white-text-color);
@@ -133,7 +136,7 @@ body {
 }
 /* footer */
 .footer {
-  background:var(--footer-color)
+  background:var(--footer-hero-color);
 }
 .footer-logo {
   color: var(--white-text-color);
