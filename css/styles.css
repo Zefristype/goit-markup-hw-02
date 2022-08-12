@@ -178,10 +178,10 @@ body {
   line-height: 1.62;
   cursor: pointer;
 }
-.active-btn {
+/* .active-btn {
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
-}
+} */
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--white-text-color);
