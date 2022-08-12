@@ -136,7 +136,7 @@ body {
 }
 /* footer */
 .footer {
-  background:var(--footer-hero-color);
+  background: var(--footer-hero-color);
 }
 .footer-logo {
   color: var(--white-text-color);
